@@ -1,0 +1,5 @@
+print ("Enter the input")
+string=raw_input()
+wordlist = string.split(',')
+print(wordlist)
+print(tuple(wordlist))
